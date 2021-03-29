@@ -25,10 +25,10 @@ void MergeSort(int a[], int b[], int start, int end){
     }
 }
 int main() {
-    int a[20] = {0, 5, 2, 11, 4, 7, 8, 19, 2, 1, 4, 10, 13};
+    int a[20] = {0, 5, 2, 11, 4, 7, 8, 19, 2, 1, 4, 10, 13, 14, 9, 5, 3};
     int b[20];
-    MergeSort(a, b, 0, 12);
-    for(int i = 0; i <= 12; i++)
-        printf("%d%c", a[i], " \n"[i == 12]);
+    MergeSort(a, b, 1, 16);
+    for(int i = 1; i <= 16; i++)
+        printf("%d%c", a[i], " \n"[i == 16]);
     return 0;
 }
